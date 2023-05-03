@@ -1,0 +1,78 @@
+body {
+    background-color: #282D35;
+}
+
+.nav-react {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(18, 103, 153);
+    align-items: center;
+}
+
+.nav-div-logotext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-react-small-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-text-1 {
+    color: azure;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-text-div-2 {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 4px;
+    height: max-content;
+    width: max-content;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-text-2 {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-header {
+    margin: 35px 30px 10px;
+    color: azure;
+    font-family: Inter;
+    font-size: 40px;
+}
+
+.main-ol-div {
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    width: max-content;
+}
+
+.main-ol {
+    font-family: Inter;
+    color: azure;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main-ol>li::marker {
+    font-size: 30px;
+    color: rgb(10, 187, 187);
+}
